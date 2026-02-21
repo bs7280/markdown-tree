@@ -312,5 +312,6 @@ Other ai agent related things:
 - This makes it easier to multi task with managing MANY agents.
 - Note system becomes a knowledge graph, which is more broadly searchable by an agent than regular markdown notes
 - Archive all chat history + changes + commit message together in sub file.
+- Tree system gives models a place to be chatty while another place to be more to the point (and link to the more detailed docs).
 
 I only had so much time to write all this today. Theres a lot of ideas and features not mentioned yet, but the point is that by treating markdown with the right abstraction, you can do some crazy things. 
