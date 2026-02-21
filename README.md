@@ -238,6 +238,18 @@ And `info.cli.git.add.md` looking like:
 
 Which now makes it much easier to document or get info now that the schema is defined all the way down to the heading. This schema also lets you reference notes that do not exist yet (like if you wanted to add an example snippet to the `git rebase` command.
 
+### Build this base tool
+
+
+
+### Features not covered
+
+Things not covered.
+- Visualizing this system
+- Bulleted List
+- Backlinks
+- Infinite recursion of notes. You and I can both insert an entire shared notesystem if we are working on a project together.
+
 ## Ai Agents
 
 How might this system work with AI Agents? I want a way to solve a few issues
@@ -295,5 +307,10 @@ We can then expose hooks tools like:
 But most importantly - give agents free roam to write info to a specific restricted part of your notes. While also giving them a structured way of retreiving information from your note system. 
 
 ## Conclusion
+
+Other ai agent related things:
+- This makes it easier to multi task with managing MANY agents.
+- Note system becomes a knowledge graph, which is more broadly searchable by an agent than regular markdown notes
+- Archive all chat history + changes + commit message together in sub file.
 
 I only had so much time to write all this today. Theres a lot of ideas and features not mentioned yet, but the point is that by treating markdown with the right abstraction, you can do some crazy things. 
